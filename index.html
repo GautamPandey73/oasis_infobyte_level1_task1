@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body style="background-color: #dcdfdc;">
+    
+    <div id="wrapper">
+        
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="pep.jpg" class="logo">
+                <div class="logo-text">PEPSI</div>
+            </div>
+            <div class="nav-items">
+                <div><a href="">ABOUT</a></div>
+                <div><a href="">SERVICE</a></div>
+                <div><a href="">CONTECT ME</a></div>
+                
+            </div>
+      
+        </div>
+
+        <div class="par">
+            <h2>PEPSI</h2>
+            <p>
+              PepsiCo is a multinational food and beverage company known for its flagship product, Pepsi. Here's some information about PepsiCo and its history. PepsiCo was founded in 1965 through the merger of Pepsi-Cola and Frito-Lay. It has since expanded its product portfolio to include a wide range of snacks, beverages, and other food products. Pepsi is a carbonated soft drink that was introduced in 1893 as "Brad's Drink" by Caleb Bradham. It was later renamed Pepsi-Cola and eventually became known as Pepsi. It is one of the most popular soft drink brands globally and is known for its refreshing and cola flavor.Product Portfolio: While Pepsi is the most well-known product of the company, PepsiCo offers a diverse range of brands and products. Some of the popular beverage brands under PepsiCo include Mountain Dew, Gatorade, Tropicana, and Aquafina. In the snack category, they own brands such as Lay's, Doritos, Cheetos, Quaker, and Ruffles.Global Presence: PepsiCo operates in more than 200 countries and territories worldwide. It has a significant presence in the United States and is also a major player in the international market.PepsiCo faces competition from other beverage companies, most notably The Coca-Cola Company. Coca-Cola is the main rival of Pepsi and has a similar product range, including its flagship Coca-Cola brand.
+             e for the latest information. 
+               
+            </p>
+            <hr>
+        </div>
+
+        
+     <h2 class="w3-center">PHOTOS</h2>
+
+<div class="w3-content w3-section" style="max-width:500px; margin-left: 300px;">
+  <img class="mySlides" src="pep3.jpg" style="width:600px; height: 400px;">
+  <img class="mySlides" src="pep4.jpg" style="width:600px; height: 400px;">
+  <img class="mySlides" src="pep5.jpg" style="width: 600px; height: 400px;">
+</div>
+      
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+      
+</body>
+<footer>
+    <p style="margin: 10px;">GAUTAM PANDAY<br>
+    </p>
+    <a href="https://www.linkedin.com/in/gautam-pandey-5a8405234" style="margin: 10px;">LINKEDIN</a></p>
+  </footer>
+</html>
